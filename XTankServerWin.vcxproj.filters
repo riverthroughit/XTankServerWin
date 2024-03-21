@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Data">
+      <UniqueIdentifier>{da25cdca-f675-4ef7-bcfd-b80af9e9a3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Socket">
+      <UniqueIdentifier>{3cb75069-f461-4185-a234-42736a8e0802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ProtoBuf">
+      <UniqueIdentifier>{54daa5db-f518-457e-9fd9-863defffc2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Util">
+      <UniqueIdentifier>{7ad2a37f-6222-4703-a844-4ce269df63d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\DataManager.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\SocketServer.cpp">
+      <Filter>源文件\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\MessageQueue.cpp">
+      <Filter>源文件\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\RoomManager.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Room.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\PlayerManager.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Protobuf\XTankMsg.pb.cc">
+      <Filter>源文件\ProtoBuf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data\DataManager.h">
+      <Filter>源文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Player.h">
+      <Filter>源文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\PlayerManager.h">
+      <Filter>源文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Room.h">
+      <Filter>源文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\RoomManager.h">
+      <Filter>源文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\PlayerId.h">
+      <Filter>源文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\MessageQueue.h">
+      <Filter>源文件\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Macro.h">
+      <Filter>源文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeConfig.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\SocketServer.h">
+      <Filter>源文件\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\SocketConfig.h">
+      <Filter>源文件\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\TickUtil.h">
+      <Filter>源文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Latency.h">
+      <Filter>源文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuf\XTankMsg.pb.h">
+      <Filter>源文件\ProtoBuf</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
